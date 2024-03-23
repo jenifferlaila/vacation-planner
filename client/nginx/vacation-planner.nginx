@@ -1,0 +1,10 @@
+server {
+        listen 80 ;
+        listen [::]:80 ;
+        server_name vacation-planner.jenifferlaila.dev ;
+        root /var/www/vacation-planner.jenifferlaila.dev ;
+        index index.html index.htm index.nginx-debian.html ;
+        location / {
+                try_files $uri $uri/ =404 ;
+        }
+}
