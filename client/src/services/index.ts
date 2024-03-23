@@ -38,14 +38,15 @@ export type VacationEventsInformation = Omit<Vacation, "id"> & {
     events: Omit<Event, "id">[]
 }
 
-const API_HOST = import.meta.env.DEV ? "http://localhost:3001" : undefined
+const API_HOST =
+    import.meta.env.DEV && import.meta.env.VITE_USE_LOCAL_API !== "false"
+        ? "http://localhost:3001"
+        : import.meta.env.VITE_API_ROOT_URL
 
 const getApiHost = () => {
     if (API_HOST) return API_HOST
 
-    throw new Error(
-        "This app should only be run in dev mode (NODE_ENV='development')",
-    )
+    throw new Error("Revise your env variables")
 }
 
 const eventParticipantsUrl = (id: number | string) =>

@@ -11,7 +11,7 @@ function Login() {
 
     return (
         <Page>
-            <Form checkTrigger="change" model={userModel} onSubmit={handleSubmit(submit)}>
+            <Form checkTrigger="change" model={userModel} onSubmit={(_, e) => handleSubmit(submit)(e)}>
                 <Stack>
                     <h3>{texts["login.form.login.title"]}</h3>
                     <LoginImage src="/images/imagem_login.jpg" alt="pensar" />

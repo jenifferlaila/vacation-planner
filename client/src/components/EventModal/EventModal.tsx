@@ -33,7 +33,7 @@ function EventModal(props: EventModalProps) {
                 <Modal.Title>Modal Title</Modal.Title>
             </Modal.Header>
 
-            <Form model={eventModel} onSubmit={submit(handleSubmit)}>
+            <Form model={eventModel} onSubmit={(_, e) => submit(handleSubmit)(e)}>
                 <Modal.Body>
                     <Controller
                         name="title"
