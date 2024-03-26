@@ -17,6 +17,15 @@ O Vacation Planner é uma aplicação Web cujo foco é proporcionar um melhor pl
 ## Tecnologias
 
 Para a criação foi utilizado:
+<div align="center" style="display: inline_block">
+  <br>
+  <img align="center" alt="Jeni-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+  <img align="center" alt="Jeni-Reactjs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Jeni-Nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Jeni-Expressjs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
+  <img align="center" alt="Jeni-SQLite" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg">
+</div>
+
 
 ## Status
 
